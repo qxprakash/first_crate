@@ -2,5 +2,13 @@
 name = "first_crate"
 version = "0.1.0"
 edition = "2021"
+license = "MIT OR Apache-2.0"
+description = "A greeting library from the first crate"
+repository = "https://github.com/your-username/your-repo"
+readme = "README.md"
+keywords = ["greeting", "example"]
+categories = ["text-processing"]
 
 [dependencies]
+docify = "0.2.8"
+
