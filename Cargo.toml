@@ -10,5 +10,5 @@ keywords = ["greeting", "example"]
 categories = ["text-processing"]
 
 [dependencies]
-docify = "0.2.8"
+docify_clone = "0.0.1"
 
