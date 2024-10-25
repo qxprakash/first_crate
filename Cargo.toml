@@ -10,6 +10,6 @@ keywords = ["greeting", "example"]
 categories = ["text-processing"]
 
 [dependencies]
-docify = { path = "../../docify" }
+docif = { path = "../../docify" }
 
 
