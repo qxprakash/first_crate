@@ -10,6 +10,6 @@ keywords = ["greeting", "example"]
 categories = ["text-processing"]
 
 [dependencies]
-docify_clone = { path = "../../docify" }
+docify = { path = "../../docify-implement/docify"}
 
 

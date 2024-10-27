@@ -4,9 +4,14 @@ pub fn greet() -> &'static str {
 }
 
 
-#[docify_clone::export]
+#[docify::export]
 pub fn example_to_embed() {
     assert_eq!(2 + 2, 4);
     assert_eq!(2 + 3, 5);
-    println!("Example running from first_crate!");
+    println!("Example running from first_crate! in the workspace right now with tag");
 }
+
+
+
+// test comment
+// klasdfklasdjf
