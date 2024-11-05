@@ -4,7 +4,7 @@ pub fn greet() -> &'static str {
 }
 
 
-#[docify_clone::export(new_example_embed)]
+#[docify::export(new_example_embed)]
 pub fn example_to_embed() {
     assert_eq!(2 + 2, 4);
     assert_eq!(2 + 3, 5);
